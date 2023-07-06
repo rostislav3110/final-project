@@ -422,7 +422,7 @@ nav ul li a:hover::after {
 .offer-image {
   display: flex;
   height: 358px;
-  padding: 0px 48px;
+  padding: 0px 40px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -597,6 +597,62 @@ nav ul li a:hover::after {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+/*sample*/
+
+.sample {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.sample-title {
+  text-align: center;
+  color: #1F1F1F;
+  font-size: 32px;
+  font-family: var(--font3);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  margin-bottom: 38px;
+}
+
+.sample-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sample-text {
+  padding: 20px 32px;
+}
+
+
+.sample-img img {
+  width: 350px;
+}
+
+.sample-text h3 {
+  color: #76CDD8;
+  font-size: 26px;
+  font-family: var(--font3);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.location p {
+  color: #1F1F1F;
+  font-size: 14px;
+  font-family: var(--font3);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 4px;
+}
+
+.location {
+  display: flex;
 }
 
 
