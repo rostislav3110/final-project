@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+body {
+  background: linear-gradient(#F8FCFF, #F8FBFF);
+}
+
+:root {
+  --font1: "Open Sans", sans-serif;
+  --font2: "Montserrat", sans-serif;
+  --font3: "Source Sans 3", sans-serif;
+}
+
+/*header*/
+
+header {
+  padding: 17px 0px 0;
+}
+
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  position: relative;
+  color: #1f1f1f;
+  font-size: 14px;
+  font-family: 'SourceSansPro-Regular';
+  line-height: 22px;
+}
+
+nav ul li a:hover {
+  color: #76cdd8;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #76cdd8;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+
+.button-home {
+  position: fixed;
+  cursor: pointer;
+  right: 40px;
+  top: 85%;
+  display: none;
+}
+
+.button-home--show {
+  display: block;
+}
+
+.home-item {
+  margin-top: 20px;
+  color: #ff004f;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 100%;
+  font-size: 20px;
+  padding: 10px 25px;
+}
+
+.home-item:hover {
+  background: #ff004f;
+  color: #fff;
+}
+
+
+nav .fas {
+  display: none;
+}
