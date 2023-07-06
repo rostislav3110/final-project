@@ -1,0 +1,173 @@
+@media (max-width:992px) {
+    .home h1 {
+        font-size: 35px;
+    }
+
+    .home p {
+        font-size: 14px;
+    }
+
+    .conect-block,.conect-block-1 {
+        display: block;
+        text-align: center;
+    }
+
+    .conect-analitic,.conect-analitic-1 {
+        top: 20%;
+        left: 44%;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .card-item {
+        width: 40%;
+        padding: 18px 16px 16px 16px;
+        margin: 20px auto;
+    }
+    .card-item img {
+        width: 350px;
+    }
+
+    .padding {
+        padding: 0;
+    }
+
+    .padding p {
+        width: 100%;
+    }
+
+    .about-content,.offer-content {
+        display: block;
+    }
+
+    .about_text {
+        width: 100%;
+        display: block;
+    }
+    
+    .about_image {
+        margin-top: 30px;
+    }
+
+    .about_image img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+
+    /*offer*/
+    .offer-title {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .offer-subtitle {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .offer-image {
+        margin-top: 30px;
+    }
+
+    .offer-image img {
+        flex: none;
+
+    }
+
+
+    /*video*/
+
+    .video-content {
+        display: block;
+        height: 0%;
+    }
+
+    .video-image {
+        text-align: center;
+    }
+
+    .video-text {
+        margin-top: 30px;
+    }
+
+    .btn-play {
+        left: 45%;
+    }
+
+
+    /*analitic*/
+
+    .analitic-text span {
+        font-size: 20px;
+    }
+
+    .analitic-text p {
+        font-size: 15px;
+    }
+
+    .analitic-item img {
+        width: 50px;
+    }
+
+    /*sample*/
+
+
+    .sample-card,.promotion-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sample-item,.promotion-item {
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+    
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+
+    nav ul {
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100%;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+
+    nav ul li a::after {
+        background: #0dd5f0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+    }
+
+}
