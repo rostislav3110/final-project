@@ -52,7 +52,7 @@ nav ul li a {
   position: relative;
   color: #1f1f1f;
   font-size: 14px;
-  font-family: 'SourceSansPro-Regular';
+  font-family: var(--font3);
   line-height: 22px;
 }
 
@@ -90,7 +90,7 @@ nav ul li a:hover::after {
   text-decoration: none;
   color: #FFF;
   font-size: 16px;
-  font-family: 'SourceSansPro-Regular';
+  font-family: var(--font3);
   line-height: 24px;
 }
 
@@ -100,7 +100,7 @@ nav ul li a:hover::after {
   padding: 8px 16px;
   color: #76CDD8;
   font-size: 16px;
-  font-family: 'SourceSansPro-Regular';
+  font-family: var(--font3);
   line-height: 24px;
   text-decoration: none;
 }
@@ -109,7 +109,7 @@ nav ul li a:hover::after {
   text-align: center;
   color: #1A2B3B;
   font-size: 46px;
-  font-family: 'SourceSansPro-Bold';
+  font-family: var(--font3);
   font-weight: 700;
   letter-spacing: 4.6px;
   margin-bottom: 18px;
@@ -119,7 +119,7 @@ nav ul li a:hover::after {
   text-align: center;
   color: #1A2B3B;
   font-size: 16px;
-  font-family: 'SourceSansPro-Light';
+  font-family: var(--font3);
   font-weight: 300;
   letter-spacing: 0.288px;
 }
