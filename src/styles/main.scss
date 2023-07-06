@@ -75,6 +75,61 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
+/*home*/
+
+.home {
+  padding: 80px 0;
+}
+
+.btn-1 {
+  border-radius: 4px;
+  border: 1px solid #76CDD8;
+  background: #76CDD8;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.12);
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  font-family: 'SourceSansPro-Regular';
+  line-height: 24px;
+}
+
+.btn-2 {
+  border-radius: 4px;
+  border: 1px solid #76CDD8;
+  padding: 8px 16px;
+  color: #76CDD8;
+  font-size: 16px;
+  font-family: 'SourceSansPro-Regular';
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.home h1 {
+  text-align: center;
+  color: #1A2B3B;
+  font-size: 46px;
+  font-family: 'SourceSansPro-Bold';
+  font-weight: 700;
+  letter-spacing: 4.6px;
+  margin-bottom: 18px;
+}
+
+.home p {
+  text-align: center;
+  color: #1A2B3B;
+  font-size: 16px;
+  font-family: 'SourceSansPro-Light';
+  font-weight: 300;
+  letter-spacing: 0.288px;
+}
+
+.button {
+  margin-top: 41px;
+  text-align: center;
+}
+
+
 
 .button-home {
   position: fixed;
