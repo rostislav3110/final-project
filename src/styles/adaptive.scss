@@ -56,6 +56,35 @@
         object-fit: contain;
     }
 
+    /*connect*/
+
+    .conect-text {
+        margin-left: 0;
+    }
+
+    .conect-text-1 {
+        margin-right: 0;
+    }
+
+    .conect-text h4,.conect-text-1 h4 {
+        font-size: 30px;
+    }
+
+    .click-item p {
+        font-size: 17px;
+    }
+
+    .click-img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .conect-button-hov {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     /*offer*/
     .offer-title {
@@ -137,7 +166,7 @@
 
 
     nav ul {
-        background: #ff004f;
+        background: #9ac3dd;
         position: fixed;
         top: 0;
         right: -200px;
@@ -149,12 +178,15 @@
     }
 
     nav ul li a {
-        color: #fff;
+        color: #000;
     }
 
+    nav ul li a:hover {
+        color: #234edb;
+    }
 
     nav ul li a::after {
-        background: #0dd5f0;
+        background: #234edb;
     }
 
     nav ul li {
@@ -169,5 +201,165 @@
         right: 25px;
         cursor: pointer;
     }
+
+
+    /*medichal*/
+
+    .card-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*about*/
+
+    .about_title {
+        font-size: 30px;
+    }
+
+    .about_text {
+        padding: 0;
+    }
+
+    /*video*/
+
+    .video-image img {
+        width: 100%;
+    }
+
+
+    /*analitic*/
+
+    .analitic-content {
+        flex-direction: column;
+    }
+
+    .analitic-item {
+        padding-bottom: 30px;
+        align-self: center;
+        text-align: center;
+        display: block;
+    }
+
+    /*footer*/
+
+    .footer-content {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-itm,.footer-contact,.partials {
+        padding-bottom: 30px;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    .home h1 {
+        font-size: 30px;
+    }
+
+    .home p {
+        font-size: 12px;
+    }
+
+    .conect-text h4, .conect-text-1 h4 {
+        font-size: 20px;
+    }
+
+    .button-item {
+        width: 90%;
+    }
+
+    .offer-image img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .btn-play {
+        left: 40%;
+        top: 140px;
+    }
+
+    .button-home--show {
+        display: none;
+    }
+
+
+    .video-item {
+        display: block;
+        text-align: center;
+    }
+
+    .vid-txt h3 {
+        font-size: 20px;
+    }
+
+    .vid-txt p {
+        font-size: 12px;
+    }
+
+    .vid-txt {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .conect-block img,.conect-block-1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+
+@media (max-width:320px) {
+    .home h1 {
+        font-size: 20px;
+    }
+
+    .home p {
+        font-size: 10px;
+    }
+
+
+    .conect-text h4, .conect-text-1 h4 {
+        font-size: 15px;
+    }
+
+    .click-item p,.about-link,.offer-subtitle {
+        font-size: 12px;
+    }   
+
+    .button-item {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .methodical-title,.offer-title,.about_title  {
+        font-size: 25px;
+    }
+
+    .card-item img {
+        width: 100%;
+    }
+
+    .offer-image {
+        padding: 0;
+        height: 100%;
+    }
+
+    .btn-play {
+        width: 56px;
+        height: 56px;
+        top: 70px;
+    }
+
+    .btn-play-2 {
+        width: 36px;
+        height: 36px;
+    }
+
 
 }
