@@ -94,7 +94,8 @@ nav ul li a:hover::after {
   line-height: 24px;
 }
 
-.btn-1:hover {
+.btn-1:focus{
+  transition: 0.2s;
   background: #76CDD8;
   color: #fff;
 }
