@@ -12,7 +12,7 @@
     text-decoration: none;
     color: #76CDD8;
     font-size: 16px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
     line-height: 24px;
 }
 
@@ -26,7 +26,7 @@
     text-align: center;
     color: #1A2B3B;
     font-size: 46px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
     font-weight: 700;
     letter-spacing: 4.6px;
     margin-bottom: 18px;
@@ -36,7 +36,7 @@
     text-align: center;
     color: #1A2B3B;
     font-size: 16px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
     font-weight: 300;
     letter-spacing: 0.288px;
 }
@@ -44,4 +44,36 @@
 .button {
     margin-top: 41px;
     text-align: center;
+}
+
+/*adaptive*/
+
+@media (max-width:992px) {
+    .home h1 {
+        font-size: 35px;
+    }
+
+    .home p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:576px) {
+    .home h1 {
+        font-size: 30px;
+    }
+
+    .home p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:320px) {
+    .home h1 {
+        font-size: 20px;
+    }
+
+    .home p {
+        font-size: 10px;
+    }
 }

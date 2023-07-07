@@ -1,12 +1,4 @@
 @media (max-width:992px) {
-    .home h1 {
-        font-size: 35px;
-    }
-
-    .home p {
-        font-size: 14px;
-    }
-
     .conect-block,.conect-block-1 {
         display: block;
         text-align: center;
@@ -38,23 +30,6 @@
         width: 100%;
     }
 
-    .about-content,.offer-content {
-        display: block;
-    }
-
-    .about_text {
-        width: 100%;
-        display: block;
-    }
-    
-    .about_image {
-        margin-top: 30px;
-    }
-
-    .about_image img {
-        width: 100%;
-        object-fit: contain;
-    }
 
     /*connect*/
 
@@ -62,11 +37,11 @@
         margin-left: 0;
     }
 
-    .conect-text-1 {
+    .content-2.conect-text {
         margin-right: 0;
     }
 
-    .conect-text h4,.conect-text-1 h4 {
+    .conect-text h4{
         font-size: 30px;
     }
 
@@ -87,6 +62,11 @@
 
 
     /*offer*/
+
+    .offer-content {
+        display: block;
+    }
+
     .offer-title {
         width: 100%;
         font-size: 30px;
@@ -210,15 +190,6 @@
         text-align: center;
     }
 
-    /*about*/
-
-    .about_title {
-        font-size: 30px;
-    }
-
-    .about_text {
-        padding: 0;
-    }
 
     /*video*/
 
@@ -256,13 +227,6 @@
 
 
 @media (max-width:576px) {
-    .home h1 {
-        font-size: 30px;
-    }
-
-    .home p {
-        font-size: 12px;
-    }
 
     .conect-text h4, .conect-text-1 h4 {
         font-size: 20px;
@@ -315,15 +279,7 @@
 
 
 @media (max-width:320px) {
-    .home h1 {
-        font-size: 20px;
-    }
-
-    .home p {
-        font-size: 10px;
-    }
-
-
+  
     .conect-text h4, .conect-text-1 h4 {
         font-size: 15px;
     }

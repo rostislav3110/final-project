@@ -20,7 +20,7 @@
 .about-title {
     color: #FFF;
     font-size: 32px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -31,7 +31,7 @@
 .about-link {
     color: #FFF;
     font-size: 14px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -41,4 +41,40 @@
 
 .about-image img {
     height: 435px;
+}
+
+/*adaptive*/
+
+@media (max-width:992px) {
+
+    .about-content {
+        display: block;
+    }
+
+    .about_text {
+        width: 100%;
+        display: block;
+    }
+
+    .about_image {
+        margin-top: 30px;
+    }
+
+    .about_image img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:768px) {
+
+    /*about*/
+
+    .about_title {
+        font-size: 30px;
+    }
+
+    .about_text {
+        padding: 0;
+    }
 }

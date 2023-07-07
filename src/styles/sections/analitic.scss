@@ -23,7 +23,7 @@
 .analitic-text span {
     color: #FFF;
     font-size: 28px;
-    font-family: var(--font2);
+    font-family: var($secondary-font);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -33,64 +33,14 @@
 .analitic-text p {
     color: #FFF;
     font-size: 18px;
-    font-family: var(--font2);
+    font-family: var($secondary-font);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
-/*sample*/
+/*adaptive*/
 
-.sample {
-    padding: 80px 0;
-    background: #fff;
-}
-
-.sample-title {
-    text-align: center;
-    color: #1F1F1F;
-    font-size: 32px;
-    font-family: var(--font3);
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 3.2px;
-    margin-bottom: 38px;
-}
-
-.sample-card {
-    display: flex;
-    justify-content: space-between;
-}
-
-.sample-text {
-    padding: 20px 32px;
-}
-
-
-.sample-img img {
-    width: 350px;
-}
-
-.sample-text h3 {
-    color: #76CDD8;
-    font-size: 26px;
-    font-family: var(--font3);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.location p {
-    color: #1F1F1F;
-    font-size: 14px;
-    font-family: var(--font3);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 4px;
-}
-
-.location {
-    display: flex;
+@media (max-width:992px) {
+    
 }

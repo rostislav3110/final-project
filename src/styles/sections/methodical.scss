@@ -9,7 +9,7 @@
 .methodical-title {
     color: #1F1F1F;
     font-size: 32px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
     font-weight: 600;
     letter-spacing: 3.2px;
     text-align: center;
@@ -39,12 +39,12 @@
     padding-bottom: 12px;
     color: #1F1F1F;
     font-size: 18px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
 }
 
 .card-item p {
     color: #1F1F1F;
     font-size: 12px;
-    font-family: var(--font3);
+    font-family: var($tertiary-font);
     font-weight: 300;
 }
