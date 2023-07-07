@@ -296,6 +296,7 @@ nav ul li a:hover::after {
 .card-item {
   margin-right: 17px;
   border-radius: 0px 0px 6px 6px;
+  padding: 18px 16px 16px 16px;
 }
 
 .card-item:hover {
@@ -306,18 +307,19 @@ nav ul li a:hover::after {
   width: 375px;
 }
 
+/*
 .padding {
   padding: 18px 16px 16px 16px;
 }
-
-.padding h3 {
+*/
+.card-item h3 {
   padding-bottom: 12px;
   color: #1F1F1F;
   font-size: 18px;
   font-family: var(--font3);
 }
 
-.padding p {
+.card-item p {
   color: #1F1F1F;
   font-size: 12px;
   font-family: var(--font3);
