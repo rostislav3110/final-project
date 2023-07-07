@@ -334,7 +334,7 @@ nav ul li a:hover::after {
   display: flex;
 }
 
-.about_text {
+.about-text {
   display: flex;
   width: 600px;
   flex-direction: column;
@@ -343,7 +343,7 @@ nav ul li a:hover::after {
   padding-right: 58px;
 }
 
-.about_title {
+.about-title {
   color: #FFF;
   font-size: 32px;
   font-family: var(--font3);
@@ -365,7 +365,7 @@ nav ul li a:hover::after {
   padding-bottom: 12px;
 }
 
-.about_image img {
+.about-image img {
   height: 435px;
 }
 
@@ -743,7 +743,7 @@ footer {
   background: #1A2B3B;
 }
 
-.footer-itm {
+.footer-item {
   display: flex;
   align-items: center;
 }
