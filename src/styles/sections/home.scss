@@ -1,0 +1,47 @@
+/*home*/
+
+.home {
+    padding: 80px 0;
+}
+
+.btn {
+    border-radius: 4px;
+    border: 1px solid #76CDD8;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.12);
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #76CDD8;
+    font-size: 16px;
+    font-family: var(--font3);
+    line-height: 24px;
+}
+
+.btn:focus {
+    transition: 0.2s;
+    background: #76CDD8;
+    color: #fff;
+}
+
+.home h1 {
+    text-align: center;
+    color: #1A2B3B;
+    font-size: 46px;
+    font-family: var(--font3);
+    font-weight: 700;
+    letter-spacing: 4.6px;
+    margin-bottom: 18px;
+}
+
+.home p {
+    text-align: center;
+    color: #1A2B3B;
+    font-size: 16px;
+    font-family: var(--font3);
+    font-weight: 300;
+    letter-spacing: 0.288px;
+}
+
+.button {
+    margin-top: 41px;
+    text-align: center;
+}

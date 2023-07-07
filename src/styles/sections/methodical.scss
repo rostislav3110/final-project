@@ -1,0 +1,50 @@
+/*methodical*/
+
+
+.methodical {
+    padding: 80px 0;
+    background: #FFF;
+}
+
+.methodical-title {
+    color: #1F1F1F;
+    font-size: 32px;
+    font-family: var(--font3);
+    font-weight: 600;
+    letter-spacing: 3.2px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.card-item {
+    border-radius: 0px 0px 6px 6px;
+    padding: 18px 16px 16px 16px;
+}
+
+.card-item:hover {
+    box-shadow: 0px 2px 0px 0px #76CDD8, 0px 6px 12px 0px rgba(0, 0, 0, 0.16);
+}
+
+.card-item img {
+    width: 375px;
+}
+
+
+.card-item h3 {
+    padding-bottom: 12px;
+    color: #1F1F1F;
+    font-size: 18px;
+    font-family: var(--font3);
+}
+
+.card-item p {
+    color: #1F1F1F;
+    font-size: 12px;
+    font-family: var(--font3);
+    font-weight: 300;
+}

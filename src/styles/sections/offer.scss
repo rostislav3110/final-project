@@ -1,0 +1,73 @@
+/*offer*/
+
+.offer {
+    padding: 80px 0;
+}
+
+.offer-content {
+    display: flex;
+    align-items: center;
+}
+
+.offer-text span {
+    color: #1F1F1F;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.offer-title {
+    color: #1F1F1F;
+    font-size: 36px;
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    width: 592px;
+}
+
+.offer-subtitle {
+    color: #1F1F1F;
+    font-size: 16px;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 592px;
+    padding-bottom: 36px;
+}
+
+
+.offer-image {
+    display: flex;
+    height: 358px;
+    padding: 0px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.offer-image img {
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.offer-check-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.offer-check-item p {
+    padding-left: 16px;
+    color: #0A2640;
+    font-size: 16px;
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
