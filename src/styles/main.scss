@@ -1,32 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.container {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-body {
-  background: linear-gradient(#F8FCFF, #F8FBFF);
-}
-
-:root {
-  --font1: "Open Sans", sans-serif;
-  --font2: "Montserrat", sans-serif;
-  --font3: "Source Sans 3", sans-serif;
-}
+@import './common';
+@import './fonts';
+@import './layout';
+@import './variables';
 
 /*header*/
 
