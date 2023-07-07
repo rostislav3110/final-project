@@ -20,7 +20,7 @@
 .about-title {
     color: #FFF;
     font-size: 32px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -31,7 +31,7 @@
 .about-link {
     color: #FFF;
     font-size: 14px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

@@ -86,7 +86,7 @@
 .vid-txt h3 {
     color: #1F1F1F;
     font-size: 24px;
-    font-family: var($secondary-font);
+    font-family: $secondary-font;
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -96,7 +96,7 @@
 .vid-txt p {
     color: #1F1F1F;
     font-size: 14px;
-    font-family: var($primary-font);
+    font-family: $primary-font;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;

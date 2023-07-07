@@ -12,7 +12,7 @@
     text-decoration: none;
     color: #76CDD8;
     font-size: 16px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     line-height: 24px;
 }
 
@@ -26,7 +26,7 @@
     text-align: center;
     color: #1A2B3B;
     font-size: 46px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     font-weight: 700;
     letter-spacing: 4.6px;
     margin-bottom: 18px;
@@ -36,7 +36,7 @@
     text-align: center;
     color: #1A2B3B;
     font-size: 16px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     font-weight: 300;
     letter-spacing: 0.288px;
 }

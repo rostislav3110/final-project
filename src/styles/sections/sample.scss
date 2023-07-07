@@ -9,7 +9,7 @@
     text-align: center;
     color: #1F1F1F;
     font-size: 32px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -34,7 +34,7 @@
 .sample-text h3 {
     color: #76CDD8;
     font-size: 26px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -43,7 +43,7 @@
 .location p {
     color: #1F1F1F;
     font-size: 14px;
-    font-family: var($tertiary-font);
+    font-family: $tertiary-font;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
