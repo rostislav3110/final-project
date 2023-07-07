@@ -709,7 +709,7 @@ nav ul li a:hover::after {
 .promotion-text p {
   color: #1F1F1F;
   font-size: 12px;
-  font-family: "SourceSansPro-Light";
+  font-family: var(--font3);
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -727,7 +727,7 @@ nav ul li a:hover::after {
   height: 32px;
 }
 
-.number p {
+.number span {
   text-align: center;
   position: absolute;
   top: 7px;
