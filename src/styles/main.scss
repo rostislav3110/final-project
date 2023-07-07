@@ -82,7 +82,7 @@ nav ul li a:hover::after {
   padding: 80px  0;
 }
 
-.btn-1 {
+.btn {
   border-radius: 4px;
   border: 1px solid #76CDD8;
   box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.12);
@@ -94,7 +94,7 @@ nav ul li a:hover::after {
   line-height: 24px;
 }
 
-.btn-1:focus{
+.btn:focus{
   transition: 0.2s;
   background: #76CDD8;
   color: #fff;
