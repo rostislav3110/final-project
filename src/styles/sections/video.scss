@@ -102,3 +102,72 @@
     line-height: 150%;
     letter-spacing: 0.448px;
 }
+
+@media (max-width:992px) {
+    .video-content {
+        display: block;
+        height: 0%;
+    }
+
+    .video-image {
+        text-align: center;
+    }
+
+    .video-text {
+        margin-top: 30px;
+    }
+
+    .btn-play {
+        left: 45%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .video-image img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .btn-play {
+        left: 40%;
+        top: 140px;
+    }
+
+    .video-item {
+        display: block;
+        text-align: center;
+    }
+
+    .vid-txt h3 {
+        font-size: 20px;
+    }
+
+    .vid-txt p {
+        font-size: 12px;
+    }
+
+    .vid-txt {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    
+}
+
+@media (max-width:320px) {
+
+    .btn-play {
+        width: 56px;
+        height: 56px;
+        top: 70px;
+    }
+
+    .btn-play-2 {
+        width: 36px;
+        height: 36px;
+    }
+
+}

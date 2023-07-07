@@ -53,3 +53,15 @@
 .location {
     display: flex;
 }
+
+@media (max-width:992px) {
+
+     .sample-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sample-item {
+        margin-bottom: 30px;
+    }
+}

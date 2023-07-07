@@ -43,3 +43,52 @@ nav ul li a::after {
 nav ul li a:hover::after {
     width: 100%;
 }
+
+/*adaptive*/
+
+@media (max-width:768px) {
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+
+    nav ul {
+        background: #9ac3dd;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100%;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li a {
+        color: #000;
+    }
+
+    nav ul li a:hover {
+        color: #234edb;
+    }
+
+    nav ul li a::after {
+        background: #234edb;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+    }
+
+}

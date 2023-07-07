@@ -68,13 +68,22 @@
 
 @media (max-width:768px) {
 
-    /*about*/
-
     .about_title {
         font-size: 30px;
     }
 
     .about_text {
         padding: 0;
+    }
+}
+
+@media (max-width:320px) {
+    
+    .about-link  {
+        font-size: 12px;
+    }
+
+    .about_title {
+        font-size: 25px;
     }
 }

@@ -71,3 +71,17 @@
     left: 12px;
     color: #fff;
 }
+
+/*adaptive*/
+
+@media (max-width:992px) {
+
+    .promotion-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promotion-item {
+        margin-bottom: 30px;
+    }
+}
