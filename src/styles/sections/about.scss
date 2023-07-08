@@ -1,7 +1,7 @@
 /*about*/
 
 .about {
-    background: #1A2B3B;
+    background: $secondary-color;
 }
 
 .about-content {
@@ -18,7 +18,7 @@
 }
 
 .about-title {
-    color: #FFF;
+    color: $primary-color;
     font-size: 32px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -29,7 +29,7 @@
 }
 
 .about-link {
-    color: #FFF;
+    color: $primary-color;
     font-size: 14px;
     font-family: $tertiary-font;
     font-style: normal;

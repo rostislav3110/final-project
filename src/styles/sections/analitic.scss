@@ -21,7 +21,7 @@
 }
 
 .analitic-text span {
-    color: #FFF;
+    color: $primary-color;
     font-size: 28px;
     font-family: var($secondary-font);
     font-style: normal;
@@ -31,7 +31,7 @@
 }
 
 .analitic-text p {
-    color: #FFF;
+    color: $primary-color;
     font-size: 18px;
     font-family: $secondary-font;
     font-style: normal;

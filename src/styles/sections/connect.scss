@@ -2,7 +2,7 @@
 
 .connect {
     padding: 80px 0;
-    background: #FFF;
+    background: $primary-color;
 }
 
 .content-1 {
@@ -36,7 +36,7 @@
 }
 
 .conect-text h4 {
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 36px;
     font-family: $secondary-font;
     line-height: 150%;
@@ -62,7 +62,7 @@
 
 .click-item p {
     padding-left: 32px;
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 20px;
     font-family: $primary-font;
     line-height: 120%;
@@ -104,7 +104,7 @@
 
 
 .conect-text h4 {
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 36px;
     font-family: $secondary-font;
     line-height: 150%;
@@ -125,7 +125,7 @@
     background: #FFF;
     box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
     padding: 16px 32px;
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 16px;
     font-family: $primary-font;
     font-weight: 600;
@@ -140,9 +140,9 @@
 }
 
 .button-item:hover {
-    background: #1A2B3B;
-    color: #fff;
-    transition: 1s ease;
+    background: $secondary-color;
+    color: $primary-color;
+    transition: 3s ease;
 }
 
 }

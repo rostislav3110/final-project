@@ -2,7 +2,7 @@
 
 footer {
     padding: 50px 0;
-    background: #1A2B3B;
+    background: $secondary-color;
 }
 
 .footer-item {
@@ -11,7 +11,7 @@ footer {
 }
 
 .footer-item p {
-    color: #FFF;
+    color: $primary-color;
     font-size: 16px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -29,7 +29,7 @@ footer {
 
 
 .footer-contact p {
-    color: #FFF;
+    color: $primary-color;
     font-size: 16px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -44,7 +44,7 @@ footer {
 
 .contact a {
     text-decoration: none;
-    color: #FFF;
+    color: $primary-color;
     font-size: 14px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -58,7 +58,7 @@ footer {
 }
 
 .partials li a {
-    color: #FFF;
+    color: $primary-color;
     font-size: 16px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -68,9 +68,9 @@ footer {
 }
 
 hr {
-    border: 1px solid #FFF;
+    border: 1px solid $primary-color;
     opacity: 0.05999999865889549;
-    background: #FFF;
+    background: $primary-color;
     margin-top: 25px;
     margin-bottom: 34px;
 }
@@ -86,7 +86,7 @@ hr {
 }
 
 .footer-copyright small {
-    color: #FFF;
+    color: $primary-color;
     font-size: 16px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -96,7 +96,7 @@ hr {
 
 .copyright-item p {
     padding-right: 26px;
-    color: #FFF;
+    color: $primary-color;
     font-size: 16px;
     font-family: $tertiary-font;
     font-style: normal;

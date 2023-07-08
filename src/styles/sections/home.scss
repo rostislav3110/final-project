@@ -6,25 +6,25 @@
 
 .btn {
     border-radius: 4px;
-    border: 1px solid #76CDD8;
+    border: 1px solid $five-quarter;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.12);
     padding: 8px 16px;
     text-decoration: none;
-    color: #76CDD8;
+    color: $five-quarter;
     font-size: 16px;
     font-family: $tertiary-font;
     line-height: 24px;
 }
 
-.btn:focus {
+.btn:hover {
     transition: 0.2s;
-    background: #76CDD8;
-    color: #fff;
+    background: $five-quarter;
+    color: $primary-color;
 }
 
 .home h1 {
     text-align: center;
-    color: #1A2B3B;
+    color: $secondary-color;
     font-size: 46px;
     font-family: $tertiary-font;
     font-weight: 700;
@@ -34,7 +34,7 @@
 
 .home p {
     text-align: center;
-    color: #1A2B3B;
+    color: $secondary-color;
     font-size: 16px;
     font-family: $tertiary-font;
     font-weight: 300;

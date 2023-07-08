@@ -7,7 +7,7 @@
 
 .sample-title {
     text-align: center;
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 32px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -32,7 +32,7 @@
 }
 
 .sample-text h3 {
-    color: #76CDD8;
+    color: $five-quarter;
     font-size: 26px;
     font-family: $tertiary-font;
     font-style: normal;
@@ -41,7 +41,7 @@
 }
 
 .location p {
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 14px;
     font-family: $tertiary-font;
     font-style: normal;

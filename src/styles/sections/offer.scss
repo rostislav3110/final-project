@@ -10,7 +10,7 @@
 }
 
 .offer-text span {
-    color: #1F1F1F;
+    color: $tertiary-color;
     text-align: center;
     font-size: 16px;
     font-family: $secondary-font;
@@ -20,7 +20,7 @@
 }
 
 .offer-title {
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 36px;
     font-family: $secondary-font;
     font-style: normal;
@@ -30,7 +30,7 @@
 }
 
 .offer-subtitle {
-    color: #1F1F1F;
+    color: $tertiary-color;
     font-size: 16px;
     font-family: $primary-font;
     font-style: normal;
@@ -64,7 +64,7 @@
 
 .offer-check-item p {
     padding-left: 16px;
-    color: #0A2640;
+    color: $quaternary-color;
     font-size: 16px;
     font-family: $secondary-font;
     font-style: normal;
