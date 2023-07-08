@@ -1,290 +1,310 @@
 /*connect*/
 
-.connect {
+.advantages {
     padding: 80px 0;
     background: $primary-color;
-}
 
-.content-1 {
+    .primary-content {
 
-    .conect-block img {
-    width: 470px;
-    height: 475px;
-    flex-shrink: 0;
-}
+        .block {
+            position: relative;
+            display: flex;
 
-.conect-analitic img {
-    width: 251px;
-    height: 360px;
-    object-fit: cover;
+            img {
+                height: 475px;
+                width: 100%;
+            }
 
-}
+        }
 
-.conect-block {
-    position: relative;
-    display: flex;
-}
+        .analytic-img {
+            position: absolute;
+            top: 40%;
+            left: 15%;
 
-.conect-analitic {
-    position: absolute;
-    top: 40%;
-    left: 15%;
-}
+            img {
+                height: 360px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
 
-.conect-text {
-    margin-left: 72px;
-}
+        .text {
+            margin-left: 72px;
 
-.conect-text h4 {
-    color: $tertiary-color;
-    font-size: 36px;
-    font-family: $secondary-font;
-    line-height: 150%;
-    letter-spacing: 1.152px;
-    font-weight: 400;
-    padding-top: 136px;
-}
+            h4 {
+                color: $tertiary-color;
+                font-size: 36px;
+                font-family: $secondary-font;
+                line-height: 150%;
+                letter-spacing: 1.152px;
+                font-weight: 400;
+                padding-top: 136px;
+                margin-bottom: 48px;
+            }
+        }
 
-.click {
-    margin-top: 48px;
-}
+        .click {
 
-.click-item {
-    display: flex;
-    align-items: center;
-    padding-bottom: 18px;
-}
+            .item {
+                display: flex;
+                align-items: center;
+                padding-bottom: 18px;
 
-.click-img img {
-    width: 32px;
-    height: 32px;
-}
+                p {
+                    padding-left: 32px;
+                    color: $tertiary-color;
+                    font-size: 20px;
+                    font-family: $primary-font;
+                    line-height: 120%;
+                }
+            }
 
-.click-item p {
-    padding-left: 32px;
-    color: $tertiary-color;
-    font-size: 20px;
-    font-family: $primary-font;
-    line-height: 120%;
-}
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
 
-}
+    .secondary-content {
 
-.content-2 {
-    
-.conect-block {
-    display: flex;
-    position: relative;
-    flex-direction: row-reverse;
-    margin-top: 5%;
-}
+        .block {
+            display: flex;
+            position: relative;
+            flex-direction: row-reverse;
+            margin-top: 5%;
 
-.conect-block img {
-    width: 470px;
-    height: 475px;
-    flex-shrink: 0;
-}
+            img {
+                height: 475px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
 
-.conect-analitic img {
-    width: 251px;
-    height: 360px;
-    object-fit: cover;
+        .analytic-img {
+            position: absolute;
+            top: 40%;
+            left: 70%;
 
-}
+            img {
+                height: 360px;
+                width: 100%;
+            }
+        }
 
-.conect-analitic {
-    position: absolute;
-    top: 50%;
-    left: 70%;
-}
+        .text {
+            margin-right: 72px;
 
-.conect-text {
-    margin-right: 72px;
-}
+            h4 {
+                color: $tertiary-color;
+                font-size: 36px;
+                font-family: $secondary-font;
+                line-height: 150%;
+                letter-spacing: 1.152px;
+                font-weight: 400;
+                padding-top: 136px;
+            }
+        }
 
+        .buttons {
 
-.conect-text h4 {
-    color: $tertiary-color;
-    font-size: 36px;
-    font-family: $secondary-font;
-    line-height: 150%;
-    letter-spacing: 1.152px;
-    font-weight: 400;
-    padding-top: 136px;
-}
+            .item {
+                display: flex;
+                align-items: center;
+                border-radius: 4px;
+                background: #FFF;
+                box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
+                padding: 16px 32px;
+                color: $tertiary-color;
+                font-size: 16px;
+                font-family: $primary-font;
+                font-weight: 600;
+                line-height: 120%;
+                text-decoration: none;
+                margin-top: 32px;
+                width: 70%;
 
-.button-image img {
-    width: 24px;
-    height: 24px;
-}
+                &:hover {
+                    background: $secondary-color;
+                    color: $primary-color;
+                    transition: .3s ease;
+                }
 
-.button-item {
-    display: flex;
-    align-items: center;
-    border-radius: 4px;
-    background: #FFF;
-    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
-    padding: 16px 32px;
-    color: $tertiary-color;
-    font-size: 16px;
-    font-family: $primary-font;
-    font-weight: 600;
-    line-height: 120%;
-    text-decoration: none;
-    margin-top: 32px;
-    width: 70%;
-}
-
-.button-image {
-    padding-right: 16px;
-}
-
-.button-item:hover {
-    background: $secondary-color;
-    color: $primary-color;
-    transition: .3s ease;
-}
-
+                .button-image {
+                    padding-right: 16px;
+                }
+            }
+        }
+    }
 }
 
 /*adaptive*/
 
 @media (max-width:992px) {
+    .advantages {
 
+        .primary-content {
 
-    
-    .content-1 {
+            .block {
+                display: block;
+                text-align: center;
 
-        .conect-block {
-            display: block;
-            text-align: center;
-        }
-    
-        .conect-analitic {
-            top: 20%;
-            left: 44%;
-        }
+            }
 
-        .conect-text {
-            margin-left: 0;
-        }
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
 
-        .conect-text h4{
-            font-size: 30px;
-        } 
+            .analytic-img {
 
-        .click-item p {
-            font-size: 17px;
-        }
+                position: absolute;
+                top: 22%;
+                left: 45%;
 
-        .click-img img {
-            width: 30px;
-            height: 30px;
-        }
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
 
-        .conect-button-hov {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-    }
+            .text {
+                margin-left: 0;
 
-    .content-2 {
+                h4 {
+                    font-size: 30px;
+                }
+            }
 
-        .conect-block {
-            display: block;
-            text-align: center;
-        }
-    
-        .conect-analitic {
-            top: 20%;
-            left: 44%;
+            .item {
+
+                p {
+                    font-size: 17px;
+                }
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
         }
 
-        .conect-text {
-            margin-right: 0;
-        }
+        .secondary-content {
 
-        .conect-text h4{
-            font-size: 30px;
-        } 
+            .block {
+                display: block;
+                text-align: center;
 
-        .click-item p {
-            font-size: 17px;
-        }
+                img {
+                    object-fit: contain;
+                    width: 100%;
+                }
 
-        .click-img img {
-            width: 30px;
-            height: 30px;
-        }
+                .analytic-img {
+                    top: 20%;
+                    left: 40%;
+                }
+            }
 
-        .conect-button-hov {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+
+            .text {
+                margin-right: 0;
+
+                h4 {
+                    font-size: 30px;
+                }
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
         }
     }
 
 }
 
 @media (max-width:576px) {
+    .advantages {
 
-    .content-1 {
+        .primary-content {
 
-       .conect-block img {
-            width: 100%;
-            height: 100%;
-        } 
+            .block {
 
-        .conect-text h4 {
-            font-size: 20px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .text {
+
+                h4 {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .secondary-content {
+
+            .block {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .text {
+
+                h4 {
+                    font-size: 20px;
+                }
+            }
+
+            .item {
+                width: 90%;
+            }
         }
     }
-
-    .content-2 {
-        .conect-block img {
-            width: 100%;
-            height: 100%;
-        } 
-
-        .conect-text h4 {
-            font-size: 20px;
-        }
-
-        .button-item {
-            width: 90%;
-        }
-    }
-        
 }
 
 @media (max-width:320px) {
 
-    .content-1 {
+    .advantages {
 
-        .conect-text h4 {
-            font-size: 15px;
+        .primary-content {
+
+            .text {
+
+                h4 {
+                    font-size: 15px;
+                }
+            }
+
+            .item {
+
+                p {
+                    font-size: 12px;
+                }
+            }
         }
 
-        .click-item p {
-            font-size: 12px;
-        } 
+        .secondary-content {
+
+            .text {
+
+                h4 {
+                    font-size: 15px;
+                }
+            }
+
+            .item {
+                font-size: 10px;
+                width: 100%;
+            }
+        }
     }
-    
-    .content-2 {
-        .conect-text h4 {
-            font-size: 15px;
-        }
-
-        .click-item p {
-            font-size: 12px;
-        } 
-
-        .button-item {
-            font-size: 10px;
-            width: 100%;
-        }
-    }
-
 }
