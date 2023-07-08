@@ -1,71 +1,85 @@
 /*analitic*/
 
-.analitic {
+.analytic {
     padding: 80px 0;
     background-image: url(/public/images/blur-img.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
 
-.analitic-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .item {
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+    }
 
-.analitic-item {
-    display: flex;
-    align-items: center;
-    padding-left: 12px;
-}
+    .text {
 
-.analitic-text span {
-    color: $primary-color;
-    font-size: 28px;
-    font-family: $secondary-font;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 2.8px;
-}
+        span {
+            color: $primary-color;
+            font-size: 28px;
+            font-family: $secondary-font;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.8px;
+        }
 
-.analitic-text p {
-    color: $primary-color;
-    font-size: 18px;
-    font-family: $secondary-font;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+        p {
+            color: $primary-color;
+            font-size: 18px;
+            font-family: $secondary-font;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
 }
 
 /*adaptive*/
 
 @media (max-width:992px) {
 
-    .analitic-text span {
-        font-size: 20px;
-    }
+    .analytic {
 
-    .analitic-text p {
-        font-size: 15px;
-    }
+        .item {
 
-    .analitic-item img {
-        width: 50px;
+            img {
+                width: 50px;
+            }
+        }
+
+        .text {
+
+            span {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
     }
 }
 
 @media (max-width:768px) {
 
-    .analitic-content {
-        flex-direction: column;
-    }
+    .analytic {
 
-    .analitic-item {
-        padding-bottom: 30px;
-        align-self: center;
-        text-align: center;
-        display: block;
+        .content {
+            flex-direction: column;
+        }
+
+        .item {
+            padding-bottom: 30px;
+            align-self: center;
+            text-align: center;
+            display: block;
+        }
     }
 }

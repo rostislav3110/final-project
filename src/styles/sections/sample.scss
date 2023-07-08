@@ -2,66 +2,73 @@
 
 .sample {
     padding: 80px 0;
-    background: #fff;
-}
+    background: $primary-color;
 
-.sample-title {
-    text-align: center;
-    color: $tertiary-color;
-    font-size: 32px;
-    font-family: $tertiary-font;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 3.2px;
-    margin-bottom: 38px;
-}
+    .title {
+        text-align: center;
+        color: $tertiary-color;
+        font-size: 32px;
+        font-family: $tertiary-font;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3.2px;
+        margin-bottom: 38px;
+    }
 
-.sample-card {
-    display: flex;
-    justify-content: space-between;
-}
+    .card {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
 
-.sample-text {
-    padding: 20px 32px;
-}
+    .text {
+        padding: 20px 32px;
+
+        h3 {
+            color: $five-quarter;
+            font-size: 26px;
+            font-family: $tertiary-font;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .location {
+        display: flex;
+
+        p {
+            color: $tertiary-color;
+            font-size: 14px;
+            font-family: $tertiary-font;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-left: 4px;
+        }
+    }
 
 
-.sample-img img {
-    width: 350px;
-}
-
-.sample-text h3 {
-    color: $five-quarter;
-    font-size: 26px;
-    font-family: $tertiary-font;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.location p {
-    color: $tertiary-color;
-    font-size: 14px;
-    font-family: $tertiary-font;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 4px;
-}
-
-.location {
-    display: flex;
 }
 
 @media (max-width:992px) {
 
-     .sample-card {
-        flex-direction: column;
-        align-items: center;
-    }
+    .sample {
 
-    .sample-item {
-        margin-bottom: 30px;
+        .card {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .item {
+            margin-bottom: 30px;
+        }
+
     }
 }
