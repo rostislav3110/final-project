@@ -44,6 +44,10 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+nav .fas {
+    display: none;
+}
+
 /*adaptive*/
 
 @media (max-width:768px) {
