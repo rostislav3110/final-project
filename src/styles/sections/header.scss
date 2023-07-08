@@ -2,97 +2,104 @@
 
 header {
     padding: 17px 0px 0;
-}
 
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-}
+    nav {
+        ul {
+            li {
+                display: inline-block;
+                list-style: none;
+                margin: 10px 20px;
 
-nav ul li a {
-    text-decoration: none;
-    position: relative;
-    color: $tertiary-color;
-    font-size: 14px;
-    font-family: $tertiary-font;
-    line-height: 22px;
-}
+                a {
+                    text-decoration: none;
+                    position: relative;
+                    color: $tertiary-color;
+                    font-size: 14px;
+                    font-family: $tertiary-font;
+                    line-height: 22px;
 
-nav ul li a:hover {
-    color: $five-quarter;
-}
+                    &:hover {
+                        color: $five-quarter;
+                    }
 
-nav ul li a::after {
-    content: "";
-    width: 0;
-    height: 2px;
-    background: $five-quarter;
-    position: absolute;
-    left: 0;
-    bottom: -15px;
-    transition: 0.5s;
-}
+                    &::after {
+                        content: "";
+                        width: 0;
+                        height: 2px;
+                        background: $five-quarter;
+                        position: absolute;
+                        left: 0;
+                        bottom: -15px;
+                        transition: 0.5s;
+                    }
 
-nav ul li a:hover::after {
-    width: 100%;
-}
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
 
-nav .fas {
-    display: none;
+        .fas {
+            display: none;
+        }
+    }
 }
 
 /*adaptive*/
 
 @media (max-width:768px) {
 
-    nav .fas {
-        display: block;
-        font-size: 25px;
+    .header {
+
+        nav {
+            ul {
+                background: #9ac3dd;
+                position: fixed;
+                top: 0;
+                right: -200px;
+                width: 200px;
+                height: 100%;
+                padding-top: 50px;
+                z-index: 2;
+                transition: right 0.5s;
+
+                li {
+                    display: block;
+                    margin: 20px;
+                    text-align: center;
+
+                    a {
+                        color: #000;
+
+                        &:hover {
+                            color: #234edb;
+                        }
+
+                        &::after {
+                            background: #234edb;
+                        }
+                    }
+                }
+
+                .fas {
+                    position: absolute;
+                    top: 25px;
+                    right: 25px;
+                    cursor: pointer;
+                }
+            }
+
+            .fas {
+                display: block;
+                font-size: 25px;
+            }
+        }
     }
-
-
-    nav ul {
-        background: #9ac3dd;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100%;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-
-    nav ul li a {
-        color: #000;
-    }
-
-    nav ul li a:hover {
-        color: #234edb;
-    }
-
-    nav ul li a::after {
-        background: #234edb;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 20px;
-        text-align: center;
-    }
-
-    nav ul .fas {
-        position: absolute;
-        top: 25px;
-        right: 25px;
-        cursor: pointer;
-    }
-
 }
