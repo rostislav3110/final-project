@@ -2,7 +2,7 @@
 
 header {
     padding: 17px 0px 0;
-
+}
     .content {
         display: flex;
         justify-content: space-between;
@@ -50,13 +50,21 @@ header {
             display: none;
         }
     }
-}
+
 
 /*adaptive*/
 
-@media (max-width:768px) {
+@media (max-width:992px) {
+    nav {
+        ul {
+            li {
+                margin: 10px 15px;
+            }
+        }
+    }
+}
 
-    .header {
+@media (max-width:768px) {
 
         nav {
             ul {
@@ -101,5 +109,5 @@ header {
                 font-size: 25px;
             }
         }
-    }
+    
 }
