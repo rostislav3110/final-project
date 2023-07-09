@@ -41,7 +41,6 @@
         }
 
         .click {
-
             .item {
                 display: flex;
                 align-items: center;
@@ -101,7 +100,6 @@
         }
 
         .buttons {
-
             .item {
                 display: flex;
                 align-items: center;
@@ -136,12 +134,9 @@
 
 @media (max-width:992px) {
     .advantages {
-
         .primary-content {
             display: block;
             text-align: center;
-
-
 
             .text {
                 margin-left: 0;
@@ -163,7 +158,6 @@
                         height: 30px;
                     }
                 }
-
             }
         }
 
@@ -171,13 +165,10 @@
             display: block;
             text-align: center;
 
-
             .analytic-img {
-
                 img {
                     object-fit: contain;
                 }
-
             }
 
 
@@ -196,17 +187,13 @@
             }
         }
     }
-
 }
 
 @media (max-width:576px) {
     .advantages {
-
         .primary-content {
             .click {
-
                 .item {
-
                     p {
                         font-size: 15px;
                     }
@@ -215,12 +202,10 @@
                         width: 20px;
                         height: 20px;
                     }
-
                 }
             }
 
             .analytic-img {
-
                 img {
                     width: 100%;
                     object-fit: contain;
@@ -233,7 +218,6 @@
             }
 
             .text {
-
                 h4 {
                     font-size: 20px;
                 }
@@ -241,9 +225,7 @@
         }
 
         .secondary-content {
-
             .analytic-img {
-
                 img {
                     width: 100%;
                     object-fit: contain;
@@ -256,7 +238,6 @@
             }
 
             .text {
-
                 h4 {
                     font-size: 20px;
                 }
@@ -272,9 +253,7 @@
 @media (max-width:320px) {
 
     .advantages {
-
         .primary-content {
-
             .text {
 
                 h4 {
@@ -283,34 +262,27 @@
             }
 
             .click {
-
                 .item {
-
                     p {
                         font-size: 12px;
                     }
                 }
             }
-
         }
 
         .secondary-content {
-
             .text {
-
                 h4 {
                     font-size: 15px;
                 }
             }
 
             .buttons {
-
                 .item {
                     font-size: 10px;
                     width: 100%;
                 }
             }
-
         }
     }
 }
