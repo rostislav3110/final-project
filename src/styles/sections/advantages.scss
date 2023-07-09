@@ -243,8 +243,11 @@
                 }
             }
 
-            .item {
-                width: 90%;
+            .buttons {
+                .item {
+                    width: 100%;
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -280,7 +283,6 @@
             .buttons {
                 .item {
                     font-size: 10px;
-                    width: 100%;
                 }
             }
         }
