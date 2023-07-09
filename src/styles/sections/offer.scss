@@ -9,7 +9,6 @@
     }
 
     .text {
-
         span {
             color: $tertiary-color;
             text-align: center;
@@ -68,7 +67,6 @@
 @media (max-width:992px) {
 
     .offer {
-
         .content {
             display: block;
         }
@@ -84,14 +82,12 @@
         .text {
             padding-bottom: 30px;
         }
-
     }
 }
 
 @media (max-width:320px) {
 
     .offer {
-
         .title {
             font-size: 25px;
         }
@@ -99,6 +95,5 @@
         .subtitle {
             font-size: 12px;
         }
-
     }
 }

@@ -1,7 +1,6 @@
 /*btn scroll*/
 
 .button-home {
-
     position: fixed;
     cursor: pointer;
     right: 40px;
@@ -24,7 +23,6 @@
 }
 
 @media (max-width:576px) {
-
     .button-home--show {
         display: none;
     }

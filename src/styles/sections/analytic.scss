@@ -19,7 +19,6 @@
     }
 
     .text {
-
         span {
             color: $primary-color;
             font-size: 28px;
@@ -46,7 +45,6 @@
 @media (max-width:992px) {
 
     .analytic {
-
         .item {
 
             img {
@@ -55,7 +53,6 @@
         }
 
         .text {
-
             span {
                 font-size: 20px;
             }
@@ -70,7 +67,6 @@
 @media (max-width:768px) {
 
     .analytic {
-
         .content {
             flex-direction: column;
         }

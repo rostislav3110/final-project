@@ -1,6 +1,5 @@
 /*methodical*/
 
-
 .methodical {
     padding: 80px 0;
     background: $primary-color;
@@ -47,8 +46,6 @@
             }
         }
     }
-
-
 }
 
 /*adaptive*/
@@ -81,7 +78,6 @@
 @media (max-width:320px) {
 
     .methodical {
-
         .title {
             font-size: 25px;
         }
