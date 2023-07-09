@@ -82,7 +82,7 @@
                 position: absolute;
                 height: 360px;
                 top: 40%;
-                left: 30%;
+                left: 40%;
             }
         }
 
@@ -142,12 +142,6 @@
             text-align: center;
 
 
-            .analytic-img {
-
-                .primary-graph {
-                    width: 100%;
-                }
-            }
 
             .text {
                 margin-left: 0;
@@ -157,16 +151,19 @@
                 }
             }
 
-            .item {
+            .click {
+                .item {
 
-                p {
-                    font-size: 17px;
+                    p {
+                        font-size: 17px;
+                    }
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
                 }
 
-                img {
-                    width: 30px;
-                    height: 30px;
-                }
             }
         }
 
@@ -179,12 +176,8 @@
 
                 img {
                     object-fit: contain;
-                    width: 100%;
                 }
 
-                .secondary-graph {
-                    left: 5%;
-                }
             }
 
 
@@ -210,10 +203,33 @@
     .advantages {
 
         .primary-content {
+            .click {
 
-            img {
-                width: 100%;
-                height: 100%;
+                .item {
+
+                    p {
+                        font-size: 15px;
+                    }
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                }
+            }
+
+            .analytic-img {
+
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+
+                .primary-graph {
+                    width: 50%;
+                    object-fit: contain;
+                }
             }
 
             .text {
@@ -226,9 +242,17 @@
 
         .secondary-content {
 
-            img {
-                width: 100%;
-                height: 100%;
+            .analytic-img {
+
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
+
+                .secondary-graph {
+                    width: 50%;
+                    object-fit: contain;
+                }
             }
 
             .text {
@@ -258,12 +282,16 @@
                 }
             }
 
-            .item {
+            .click {
 
-                p {
-                    font-size: 12px;
+                .item {
+
+                    p {
+                        font-size: 12px;
+                    }
                 }
             }
+
         }
 
         .secondary-content {
@@ -275,10 +303,14 @@
                 }
             }
 
-            .item {
-                font-size: 10px;
-                width: 100%;
+            .buttons {
+
+                .item {
+                    font-size: 10px;
+                    width: 100%;
+                }
             }
+
         }
     }
 }

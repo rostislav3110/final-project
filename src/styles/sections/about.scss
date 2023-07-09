@@ -2,7 +2,7 @@
 
 .about {
     background: $secondary-color;
-    
+
     .content {
         display: flex;
     }
@@ -56,6 +56,7 @@
         .content {
             display: block;
         }
+
         .text {
             width: 100%;
             display: block;
@@ -75,11 +76,23 @@
 }
 
 @media (max-width:320px) {
+    .about {
 
-    .about-link {
-        font-size: 12px;
+        .content {
+
+            .text {
+                padding-right: 40px;
+            }
+
+        }
+
+        .about-link {
+            font-size: 12px;
+        }
+
+        .about_title {
+            font-size: 25px;
+        }
     }
-    .about_title {
-        font-size: 25px;
-    }
+
 }
