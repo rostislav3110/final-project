@@ -4,15 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>myportfolioros</title>
+  <link rel="shortcut icon" href="/public/images/favicon.png" type="image/x-icon">
+  <title>Final project</title>
 </head>
 
 <body>
-  {{> ../partials/header}}
-
-  <div class="button-home">
-    <a href="#header" class="home-item">↑</a>
-  </div>
+  {{> ../partials/layouts/header}}
+  {{> ../partials/sections/home}}
+  {{> ../partials/sections/advantages}}
+  {{> ../partials/sections/methodical}}
+  {{> ../partials/sections/about}}
+  {{> ../partials/sections/offer}}
+  {{> ../partials/sections/multimedia}}
+  {{> ../partials/sections/analytic}}
+  {{> ../partials/sections/sample}}
+  {{> ../partials/sections/promotion}}
+  {{> ../partials/layouts/footer}}
+  {{> ../partials/components/button-scroll}}
 
   <script src="https://kit.fontawesome.com/a83a3a8eca.js" crossorigin="anonymous"></script>
   <script src="./public/js/custom.js"></script>

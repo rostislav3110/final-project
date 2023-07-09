@@ -1,0 +1,133 @@
+/*footer*/
+
+footer {
+    padding: 50px 0;
+    background: $secondary-color;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+
+        p {
+            color: $primary-color;
+            font-size: 16px;
+            font-family: $tertiary-font;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.512px;
+            padding-left: 10px;
+        }
+    }
+
+    .adress {
+        p {
+            color: $primary-color;
+            font-size: 16px;
+            font-family: $tertiary-font;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-bottom: 18px;
+        }
+    }
+
+    .contact {
+        padding-bottom: 9px;
+
+        a {
+            text-decoration: none;
+            color: $primary-color;
+            font-size: 14px;
+            font-family: $tertiary-font;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+
+    .partials {
+        li {
+            list-style: none;
+            padding-bottom: 10px;
+
+            a {
+                color: $primary-color;
+                font-size: 16px;
+                font-family: $tertiary-font;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    hr {
+        border: 1px solid $primary-color;
+        opacity: 0.05999999865889549;
+        background: $primary-color;
+        margin-top: 25px;
+        margin-bottom: 34px;
+    }
+
+    .copyright {
+        text-align: center;
+
+        .item {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 12px;
+
+            p {
+                padding-right: 26px;
+                color: $primary-color;
+                font-size: 16px;
+                font-family: $tertiary-font;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        small {
+            color: $primary-color;
+            font-size: 16px;
+            font-family: $tertiary-font;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+/*adaptive*/
+
+@media (max-width:768px) {
+
+    footer {
+        .content {
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .item {
+            padding-bottom: 30px;
+        }
+
+        .adress {
+            padding-bottom: 30px;
+        }
+
+        .partials {
+            padding-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+/*btn scroll*/
+
+.button-home {
+    position: fixed;
+    cursor: pointer;
+    right: 40px;
+    bottom: 20%;
+    display: none;
+    color: #fff;
+    text-decoration: none;
+    background: #C9DB48;
+    border-radius: 100%;
+    padding: 15px 20px;
+
+    &--show {
+        display: block;
+    }
+
+    &:hover {
+        background: #9aa82a;
+        color: #000;
+    }
+}
+
+@media (max-width:576px) {
+    .button-home--show {
+        display: none;
+    }
+}
