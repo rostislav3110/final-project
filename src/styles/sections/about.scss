@@ -55,14 +55,17 @@
     .about {
         .content {
             display: block;
+
+            .text {
+                width: 100%;
+                display: block;
+                padding-bottom: 30px;
+                padding-right: 20px;
+                padding-top: 20px;
+            }
         }
 
-        .text {
-            width: 100%;
-            display: block;
-            padding-bottom: 30px;
-            padding-right: 0;
-        }
+
     }
 }
 
@@ -77,12 +80,6 @@
 
 @media (max-width:320px) {
     .about {
-        .content {
-            .text {
-                padding-right: 40px;
-            }
-        }
-
         .about-link {
             font-size: 12px;
         }
