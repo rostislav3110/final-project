@@ -9,10 +9,11 @@
 
     .text {
         display: flex;
-        width: 500px;
+        width: 50%;
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
+        padding-right: 20px;
         padding-left: 40px;
     }
 
@@ -57,7 +58,6 @@
                 width: 100%;
                 display: block;
                 padding-bottom: 30px;
-                padding-right: 20px;
                 padding-top: 20px;
             }
 
